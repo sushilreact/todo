@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Todolist from './Componets/Todolist';
+import App from './App';
 
 
 
 ReactDOM.render(
   <>
-    <Todolist />
+    <App />
   </>,
   document.getElementById("root")
 );
